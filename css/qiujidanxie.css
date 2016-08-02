@@ -1,0 +1,13 @@
+// JavaScript Document
+var a=document.querySelector('.zhuangshi1');
+var tanchuangNode=document.querySelector('.fixed');
+var guanbiNode=document.querySelector('.tc-you');
+
+a.onclick=function(){
+	this.style.left="799"
+};
+
+
+a.onmousedowm=function(){
+	tanchuangNode.style.top="-100%"
+};
